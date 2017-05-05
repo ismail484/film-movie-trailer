@@ -1,12 +1,13 @@
 import webbrowser
 
-class Video:
-   
-
+class Video():
 
     def __init__(self,title,duration):
         
         self.title=title
-        self.duration= duration
+        self.duration=duration
+
+    def show_trailer(self):
+        print(self.title)
     
 
