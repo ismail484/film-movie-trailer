@@ -1,17 +1,17 @@
 import webbrowser
 import videos
 
-class TvShow(Video):
+class TvShow(videos.Video):
     
 
 
-    def __init__(self,title,season,episode,tv_station):
+    def __init__(self,title,duration,season,tv_station,episode_url):
         
-       Video.__init__(self,title)
+        videos.Video.__init__(self,title,duration)
         self.season= season
-        self.episode=episode
         self.tv_station=tv_station
+        self.episode_url=episode_url
 
     def get_local_listing(self):
-        webbrowser.open(self.trailer_youtube_url)
+        webbrowser.open(self.episode_url)
         
