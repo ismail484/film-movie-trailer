@@ -21,7 +21,7 @@ it just needs pyton 2.7v or higher to run the application
 How to Run Project
 ------------------
 just donload the zip project (movies.zip)and run entertainment_center.py using command (python entertainment_center.py)
-[In this section, explicitly describe the steps necessary to run your project from Github repo to the program execution. Make sure you try out these steps to verify that you didn’t overlook anything.]
+
 
 
 Extra Credit Description
